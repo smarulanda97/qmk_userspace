@@ -1,4 +1,11 @@
 {
-    "userspace_version": "1.0",
-    "build_targets": []
+    "userspace_version": "1.1",
+    "build_targets": [
+        ["splitkb/kyria/rev3", "tiagocode"],
+        ["crkbd/rev1", "tiagocode"],
+        ["dasky/reverb", "tiagocode"],
+        ["splitkb/aurora/sofle_v2", "tiagocode"],
+        ["splitkb/aurora/lily58", "tiagocode"],
+        ["splitkb/kyria", "tiagocode"]
+    ]
 }
