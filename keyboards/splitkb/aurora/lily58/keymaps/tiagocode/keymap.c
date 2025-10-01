@@ -50,7 +50,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * |------+------+------+------+------+------|                    |------+------+------+------+------+------|
      * | ESC  |   Q  |   W  |   E  |   R  |   T  |                    |   Y  |   U  |   I  |   O  |   P  |BACKSP|
      * |------+------+------+------+------+------|                    |------+------+------+------+------+------|
-     * | TAB  |   A  |   S  |   D  |   F  |   G  |-------.    ,-------|   H  |   J  |   K  |   L  |   ;  |  '   |
+     * |NUMTAB|   A  |   S  |   D  |   F  |   G  |-------.    ,-------|   H  |   J  |   K  |   L  |   ;  |  '   |
      * |------+------+------+------+------+------|   [   |    |    ]  |------+------+------+------+------+------|
      * |LCAPS |   Z  |   X  |   C  |   V  |   B  |-------|    |-------|   N  |   M  |   ,  |   .  |   /  |RCAPS |
      * `-----------------------------------------/       /     \      \-----------------------------------------'
@@ -78,7 +78,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * |------+------+------+------+------+------|   [   |    |    ]  |------+------+------+------+------+------|
      * |LCAPS |      |      | META | MENU |      |-------|    |-------|      |      |      |      |      |RCAPS |
      * `-----------------------------------------/       /     \      \-----------------------------------------'
-     *                   |ADJS  | NUMS |      | /SPACE  /       \ENTER \  |      |DEL   |BACKSP|
+     *                   |ADJS  |      |      | /SPACE  /       \ENTER \  |      |DEL   |BACKSP|
      *                   |      |      |      |/       /         \      \ |      |      |      |
      *                   `----------------------------'           '------''--------------------'
      */
@@ -111,7 +111,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______, XXXXXXX, XXXXXXX, KC_MINS, KC_PLUS,  KC_EQL,                    XXXXXXX,    KC_7,    KC_8,    KC_9, XXXXXXX, _______,
         _______, XXXXXXX, XXXXXXX, KC_ASTR, KC_PSLS, KC_PERC,                    XXXXXXX,    KC_4,    KC_5,    KC_6, XXXXXXX,  KC_DEL,
         _______, XXXXXXX, XXXXXXX, KC_CIRC, KC_COMM,  KC_DOT,  _______, _______, XXXXXXX,    KC_1,    KC_2,    KC_3, XXXXXXX, XXXXXXX,
-                                   _______, XXXXXXX, _______,  _______, _______,    KC_0,  KC_DOT,  _______
+                                   XXXXXXX, XXXXXXX, _______,  _______, _______,    KC_0,  KC_DOT,  _______
     ),
 
     /*
